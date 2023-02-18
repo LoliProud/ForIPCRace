@@ -385,3 +385,6 @@ ent-DrinkHellRamen = hell ramen
 ent-DrinkKvassGlass = kvass glass
     .desc = A cool refreshing drink with a taste of socialism.
     .suffix = { "" }
+ent-DrinkSheepWoolGlass = sheep wool glass
+    .desc = An innocent-looking mixture of ale and apple juice. Delicious.
+    .suffix = { "" }

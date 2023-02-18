@@ -162,3 +162,5 @@ reagent-name-whiskey-soda = виски с содовой
 reagent-desc-whiskey-soda = Невероятно освежающе!
 reagent-name-white-russian = белый русский
 reagent-desc-white-russian = Но это только твоё мнение, чувак.
+reagent-name-sheep-wool = овечья шерсть
+reagent-desc-sheep-wool = Эль, смешанный с яблочным соком. Удивительно освежает.

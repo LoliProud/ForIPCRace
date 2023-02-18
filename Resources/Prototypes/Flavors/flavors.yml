@@ -648,3 +648,8 @@
   id: watermelon
   flavorType: Complex
   description: flavor-complex-watermelon
+
+- type: flavor
+  id: sheepwool
+  flavorType: Complex
+  description: flavor-complex-sheep-wool

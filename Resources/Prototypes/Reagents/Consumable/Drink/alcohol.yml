@@ -1169,3 +1169,21 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.15
+
+- type: reagent
+  id: SheepWool
+  name: reagent-name-sheep-wool
+  parent: BaseAlcohol
+  desc: reagent-desc-sheep-wool
+  physicalDesc: reagent-physical-desc-bubbly
+  flavor: sheepwool
+  color: "#3E1B00"
+  spritePath: sheepwoolglass.rsi
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.03

@@ -53,7 +53,7 @@ namespace Content.Shared.Preferences
             Sex = sex;
             Gender = gender;
             Appearance = appearance;
-            Clothing = clothing;
+            Clothing = clothing; 
             Backpack = backpack;
             _jobPriorities = jobPriorities;
             PreferenceUnavailable = preferenceUnavailable;

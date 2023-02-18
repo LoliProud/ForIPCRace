@@ -562,3 +562,16 @@
       amount: 1
   products:
     Pilk: 2
+
+- type: reaction
+  id: SheepWool
+  reactants:
+    Ale:
+      amount: 1
+    JuiceApple:
+      amount: 1
+    Sugar:
+      amount: 2
+  products:
+    SheepsWool: 4
+

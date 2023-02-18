@@ -56,7 +56,7 @@
 - type: entity
   id: OrganAnimalLiver
   parent: BaseAnimalOrgan
-  name: liver
+  name: с
   noSpawn: true
   components:
   - type: Organ

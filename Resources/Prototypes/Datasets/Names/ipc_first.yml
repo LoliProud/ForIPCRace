@@ -1,0 +1,37 @@
+- type: dataset
+  id: IpcNamesFirst
+  values:
+  - CDCY
+  - WYCI
+  - ALCE
+  - OSI
+  - PPAJ
+  - H.P.E.E.
+  - C.B.A.
+  - DFMA
+  - L.A.M.L.
+  - D.I.V.I.A.N.T.
+  - SPAS
+  - FREZ
+  - JOR
+  - VILK
+  - A.R.N.
+  - SMIT
+  - N.T.S.T.
+  - SSCY
+
+- type: dataset
+  id: IpcNamesLast
+  values:
+  - 9453
+  - 6666
+  - 1393
+  - 944
+  - 524
+  - 01
+  - 3055
+  - 23
+  - 1
+  - 1478
+  - 00
+  - 59

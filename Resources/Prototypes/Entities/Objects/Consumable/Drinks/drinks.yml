@@ -2134,3 +2134,19 @@
               Quantity: 50
     - type: Sprite
       sprite: Objects/Consumable/Drinks/kvass.rsi
+
+- type: entity
+  parent: DrinkGlassBase
+  id: DrinkSheepWoolGlass
+  name: sheep wool glass
+  description: An innocent-looking mixture of ale and apple juice. Delicious.
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 50
+        reagents:
+        - ReagentId: SheepWool
+          Quantity: 50
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/sheepwoolglass.rsi

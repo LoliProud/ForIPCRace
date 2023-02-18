@@ -146,6 +146,21 @@
   flatReductions:
     Blunt: 5
 
+- type: damageModifierSet
+  id: Ipc
+  coefficients:
+    Heat: 0.7
+    Blunt: 0.7
+    Slash: 0.7
+    Piercing: 0.7
+    Cold: 0.0
+    Poison: 0.0
+    Radiation: 0.0
+    Asphyxiation: 0.0
+    Bloodloss: 0.0
+    Cellular: 0.0
+
+
 # Represents which damage types should be modified
 # in relation to how they cause bloodloss damage.
 - type: damageModifierSet

@@ -1,0 +1,125 @@
+- type: species
+  id: Ipc
+  name: species-name-ipc
+  roundStart: true
+  prototype: MobIpc
+  sprites: MobIpcSprites
+  markingLimits: MobIpcMarkingLimits
+  maleFirstNames: IpcNamesFirst
+  femaleFirstNames: IpcNamesFirst
+  maleLastNames: IpcNamesLast
+  femaleLastNames: IpcNamesLast
+  dollPrototype: MobIpcDummy
+  skinColoration: Hues
+  #naming: TheFirstofLast
+
+- type: speciesBaseSprites
+  id: MobIpcSprites
+  sprites:
+    Head: MobIpcHead
+    Chest: MobIpcTorso
+    LArm: MobIpcLArm
+    RArm: MobIpcRArm
+    LHand: MobIpcLHand
+    RHand: MobIpcRHand
+    LLeg: MobIpcLLeg
+    RLeg: MobIpcRLeg
+    LFoot: MobIpcLFoot
+    RFoot: MobIpcRFoot
+
+- type: markingPoints
+  id: MobIpcMarkingLimits
+  points:
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
+
+- type: humanoidBaseSprite
+  id: MobIpcHead
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobIpcHeadMale
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobIpcHeadFemale
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: head_m
+
+- type: humanoidBaseSprite
+  id: MobIpcTorso
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobIpcTorsoMale
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobIpcTorsoFemale
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: torso_m
+
+- type: humanoidBaseSprite
+  id: MobIpcLLeg
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: l_leg
+
+- type: humanoidBaseSprite
+  id: MobIpcLArm
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: l_arm
+
+- type: humanoidBaseSprite
+  id: MobIpcLHand
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: l_hand
+
+- type: humanoidBaseSprite
+  id: MobIpcLFoot
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: l_foot
+
+- type: humanoidBaseSprite
+  id: MobIpcRLeg
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: r_leg
+
+- type: humanoidBaseSprite
+  id: MobIpcRArm
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: r_arm
+
+- type: humanoidBaseSprite
+  id: MobIpcRHand
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: r_hand
+
+- type: humanoidBaseSprite
+  id: MobIpcRFoot
+  baseSprite:
+    sprite: Mobs/Species/Ipc/parts.rsi
+    state: r_foot
